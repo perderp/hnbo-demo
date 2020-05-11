@@ -2,6 +2,7 @@ $bg: #00AFE1;
 $unifyblack : rgba(0, 0, 0, .5);
 body{
     background-color:#f7f7f7;
+    color:$unifyblack;
 }
 
 //nav Orange button
@@ -328,18 +329,14 @@ body{
                     font-weight: 700;
                     line-height: 1.2;
                     margin-bottom: 20px;
-                    background-image: linear-gradient(to right,#00BCDB,#00D323,#FFB000);
-                    -webkit-background-clip: text;
-                    -webkit-text-fill-color: #0000;
+
                 }
                 h2{
                     font-size: 2.5rem;
                     font-weight: 700;
                     line-height: 1.2;
                     margin-bottom: 20px;
-                    background-image: linear-gradient(to right,#00BCDB,#00D323,#FFB000);
-                    -webkit-background-clip: text;
-                    -webkit-text-fill-color: #0000;
+
                 }
                 p{
                     font-size: 1rem;
@@ -873,7 +870,7 @@ body{
                             text-align: left;
                         }
                         p{
-                            color:#00BCDB;
+                            color:$unifyblack;
                             text-align: left;
                         }
                     }
@@ -1367,7 +1364,7 @@ body{
             p{
                 text-align:justify;
                 padding-bottom:24.3px;
-                color:#00BCDB;
+                color:$unifyblack;
                 margin:30px 30px;
             }
             .btn-orange{
@@ -1394,7 +1391,7 @@ body{
             }
             p{
                 text-align:justify;
-                color:#00BCDB;
+                color:$unifyblack;
                 margin:30px 20px;
             }
             .btn-orange{

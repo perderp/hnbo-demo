@@ -1,5 +1,6 @@
 body {
   background-color: #f7f7f7;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .nav-orange {
@@ -265,10 +266,6 @@ body {
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 20px;
-  background-image: -webkit-gradient(linear, left top, right top, from(#00BCDB), color-stop(#00D323), to(#FFB000));
-  background-image: linear-gradient(to right, #00BCDB, #00D323, #FFB000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: #0000;
 }
 
 .top-section .container-fluid .row .col-lg-6 h2 {
@@ -276,10 +273,6 @@ body {
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 20px;
-  background-image: -webkit-gradient(linear, left top, right top, from(#00BCDB), color-stop(#00D323), to(#FFB000));
-  background-image: linear-gradient(to right, #00BCDB, #00D323, #FFB000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: #0000;
 }
 
 .top-section .container-fluid .row .col-lg-6 p {
@@ -821,7 +814,7 @@ body {
 }
 
 .team-list .container .row .col-lg-3 .card .card-body p, .team-list .container .row .col-md-6 .card .card-body p, .team-list .container .row .col-sm-12 .card .card-body p {
-  color: #00BCDB;
+  color: rgba(0, 0, 0, 0.5);
   text-align: left;
 }
 
@@ -1319,7 +1312,7 @@ body {
 .services-new .newService .s_1 p {
   text-align: justify;
   padding-bottom: 24.3px;
-  color: #00BCDB;
+  color: rgba(0, 0, 0, 0.5);
   margin: 30px 30px;
 }
 
@@ -1351,7 +1344,7 @@ body {
 
 .services-new .newService .s_2 p {
   text-align: justify;
-  color: #00BCDB;
+  color: rgba(0, 0, 0, 0.5);
   margin: 30px 20px;
 }
 
