@@ -96,8 +96,7 @@ $(document).ready(function(){
 
     $( ".navbar-toggler" ).click(function() {
         $('.navbar').css('background-color', '#2390ae');
-
-
+        $('.navbar').css('transition', 'all 650ms ease 0s');
   });
 
 
