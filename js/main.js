@@ -94,6 +94,12 @@ $(document).ready(function(){
         $('.fas-bars').toggleClass('fa-times');
     });
 
+    $( ".navbar-toggler" ).click(function() {
+        $('.navbar').css('background-color', '#2390ae');
+
+
+  });
+
 
     
     // IMAGE FOOTER HOVER EFFECT
