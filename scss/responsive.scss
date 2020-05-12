@@ -332,6 +332,13 @@
             }
 
             .container{
+                .ab_h3{
+                    background-image: linear-gradient(to right,#002cff, #00bcdb, #002cff);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: #0000;
+                    background-size:100%;
+                    padding-left:15px;
+                }
                 .h2-history{
                     padding-left: 15px;
                     
@@ -466,6 +473,13 @@
                             }
                         }
                     }
+                }
+                .ab_h3{
+                    background-image: linear-gradient(to right,#002cff, #00bcdb, #002cff);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: #0000;
+                    background-size:100%;
+                    padding-left:15px;
                 }
             }
 
@@ -1197,6 +1211,13 @@
             }
 
             .container{
+                .ab_h3{
+                    padding-left:15px;
+                    background-image: linear-gradient(to right,#002cff, #00bcdb, #002cff);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: #0000;
+                    background-size:100%;
+                }
                 .h2-history{
                     padding-left: 15px;
                 }
@@ -1319,6 +1340,13 @@
                             }
                         }
                     }
+                }
+                .ab_h3{
+                    padding-left:15px;
+                    background-image: linear-gradient(to right,#002cff, #00bcdb, #002cff);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: #0000;
+                    background-size:100%;
                 }
             }
             // END OF ABOUT US CSS
@@ -1647,7 +1675,6 @@
                 }
                 .h2-history{
                     //02-19-2020 change the padding-top to 100 px. ny chaimel
-                    padding-top: 50px;
                     padding-bottom: 20px;
                     
                 }
@@ -1714,7 +1741,6 @@
                 }
                 .h2-history{
                     //02-19-2020 change the padding-top to 100 px. ny chaimel
-                    padding-top: 50px;
                     padding-bottom: 20px;
                     
                 }
@@ -1947,7 +1973,6 @@
                 }
                 .h2-history{
                     //02-19-2020 change the padding-top to 100 px. ny chaimel
-                    padding-top: 50px;
                     padding-bottom: 30px;
                 }
                 .office{
@@ -2001,7 +2026,6 @@
                 }
                 .h2-history{
                     //02-19-2020 change the padding-top to 100 px. ny chaimel
-                    padding-top: 50px;
                     padding-bottom: 30px;
                 }
                 .office{
@@ -2178,7 +2202,6 @@
                 }
                 .h2-history{
                     //02-19-2020 change the padding-top to 100 px. ny chaimel
-                    padding-top: 50px;
                     padding-bottom: 30px;
                 }
                 .office{
@@ -2234,7 +2257,6 @@
                 }
                 .h2-history{
                     //02-19-2020 change the padding-top to 100 px. ny chaimel
-                    padding-top: 50px;
                     padding-bottom: 30px;
                     padding-left: 15px;
                 }
@@ -2403,7 +2425,6 @@
                 }
                 .h2-history{
                     //02-19-2020 change the padding-top to 100 px. ny chaimel
-                    padding-top: 50px;
                     padding-bottom: 30px;
                 }
                 .office{
@@ -2452,7 +2473,6 @@
                 }
                 .h2-history{
                     //02-19-2020 change the padding-top to 100 px. ny chaimel
-                    padding-top: 50px;
                     padding-bottom: 30px;
                     padding-left: 15px;
                 }
@@ -2619,8 +2639,7 @@
                     
                 }
                 .h2-history{
-                    //02-19-2020 change the padding-top to 100 px. ny chaimel
-                    padding-top: 50px;
+                    //02-19-2020 change the padding-top to 100 px. ny chaime
                     padding-bottom: 30px;
                 }
                 .office{
@@ -2677,7 +2696,7 @@
                 }
                 .h2-history{
                     //02-19-2020 change the padding-top to 100 px. ny chaimel
-                    padding-top: 50px;
+
                     padding-bottom: 30px;
                     padding-left: 15px; 
                 }
@@ -2776,96 +2795,7 @@
         }
     }
     
-    
-    @media (min-width:321px) and (max-width:375px){
-        .meetTheTeam{
-            position: relative;
-            // margin-top: 129px;
-           
-            .path{
-                width: 100%;
-                position: absolute;
-                // z-index: -1;
-                top: 470px;
-            }
-            padding-bottom: 110px;
-        }
-        .modal{
-            .modal-body{
-                .row{
-                    .col-lg-6{
-                        .image{
-                            width: 330px;
-                            height: auto;
-                            padding: 20px;
-                            margin: 0 auto;
-                        }
-                        h2{
-                            padding-top: 50px;
-                        }
-                        
-                    }
-                }
-            }
-        }
-        .aboutUs{
-            margin: 0;
-            margin-top: 10px;
-            position: relative;
-            .container{
-                margin: 0 auto;
-                .row{
-                    
-                    .col-lg-6 {
-                      
-                       
-                        h2{
-                            padding-top: 28px;
-                        }
-                        .ceo-t{
-                           display: block;
-                           margin: 0 auto;
-                           width: 200px;
-                        }
-                         
-                        }
-                        p{
-                            padding-top: 20px;
-                            
-                        }
-                        .ceo{
-                            margin-top: 100px;
-                            //02-19-2020 added padding-left. by: Chaimel
-                            padding-left: 50px;
-                            width: 400px;
-                            height: auto;
-                            display: none;
-                        }
-                        
-                    }
-                   
-                    
-                }
-                .h2-history{
-                    //02-19-2020 change the padding-top to 100 px. ny chaimel
-                    padding-top: 50px;
-                    padding-bottom: 30px;
-                }
-                .office{
-                   display: none;
-                }
-                .opis{
-                   display: none;
-                }
-                .opis2{
-                    width: 300px;
-                    margin: 0 auto;
-                    display: block;
-                }
-        }
-        
-    }
-    
+ 
     
     //MARK
     @media only screen and (max-width: 769px) {
@@ -2877,7 +2807,7 @@
                 .row{
                     .col-sm-12{
                         h1{
-                            // margin-top: 10px;
+                            margin-top: 10px;
                             // font-size: 2rem;
                         }
                         h2{
@@ -2892,29 +2822,10 @@
         }
         .consultation-section{
             padding: 0;
-        }
-    }
-    @media only screen and (max-width: 769px) {
-
-        .top-section{
-            .container-fluid{
-                padding: 10px;
-                text-align: center;
-                .row{
-                    .col-sm-12{
-                        h1{
-                            margin-top: 10px;
-                        }
-                        
-                    }
-                }
-            }
-        }
-        .consultation-section{
-            padding: 0;
             background:none;
         }
     }
+
     //services 
     @media (min-width:768px) and (max-width:1023px){
         .section-head{

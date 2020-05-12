@@ -232,6 +232,14 @@
     font-size: .9rem;
     text-align: left;
   }
+  .aboutUs .container .ab_h3 {
+    background-image: -webkit-gradient(linear, left top, right top, from(#002cff), color-stop(#00bcdb), to(#002cff));
+    background-image: linear-gradient(to right, #002cff, #00bcdb, #002cff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #0000;
+    background-size: 100%;
+    padding-left: 15px;
+  }
   .aboutUs .container .h2-history {
     padding-left: 15px;
   }
@@ -315,6 +323,14 @@
   }
   .aboutUs2 .container-fluid .jumbotron .container p {
     text-align: left;
+  }
+  .aboutUs2 .ab_h3 {
+    background-image: -webkit-gradient(linear, left top, right top, from(#002cff), color-stop(#00bcdb), to(#002cff));
+    background-image: linear-gradient(to right, #002cff, #00bcdb, #002cff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #0000;
+    background-size: 100%;
+    padding-left: 15px;
   }
   .container .row .col-sm-12 .p2 {
     font-size: 12px;
@@ -762,6 +778,14 @@
     font-size: .9rem;
     text-align: left;
   }
+  .aboutUs .container .ab_h3 {
+    padding-left: 15px;
+    background-image: -webkit-gradient(linear, left top, right top, from(#002cff), color-stop(#00bcdb), to(#002cff));
+    background-image: linear-gradient(to right, #002cff, #00bcdb, #002cff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #0000;
+    background-size: 100%;
+  }
   .aboutUs .container .h2-history {
     padding-left: 15px;
   }
@@ -837,6 +861,14 @@
   }
   .aboutUs2 .container-fluid .jumbotron .container p {
     text-align: left;
+  }
+  .aboutUs2 .ab_h3 {
+    padding-left: 15px;
+    background-image: -webkit-gradient(linear, left top, right top, from(#002cff), color-stop(#00bcdb), to(#002cff));
+    background-image: linear-gradient(to right, #002cff, #00bcdb, #002cff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #0000;
+    background-size: 100%;
   }
   .container-fluid .jumbotron .container h1 {
     font-size: 32px;
@@ -1065,7 +1097,6 @@
     margin-top: 20%;
   }
   .aboutUs .h2-history {
-    padding-top: 50px;
     padding-bottom: 20px;
   }
   .aboutUs .office {
@@ -1114,7 +1145,6 @@
     margin-top: 20%;
   }
   .aboutUs2 .h2-history {
-    padding-top: 50px;
     padding-bottom: 20px;
   }
   .aboutUs2 .office {
@@ -1311,7 +1341,6 @@
     display: none;
   }
   .aboutUs .h2-history {
-    padding-top: 50px;
     padding-bottom: 30px;
   }
   .aboutUs .office {
@@ -1350,7 +1379,6 @@
     display: none;
   }
   .aboutUs2 .h2-history {
-    padding-top: 50px;
     padding-bottom: 30px;
   }
   .aboutUs2 .office {
@@ -1488,7 +1516,6 @@
     display: none;
   }
   .aboutUs .h2-history {
-    padding-top: 50px;
     padding-bottom: 30px;
   }
   .aboutUs .office {
@@ -1528,7 +1555,6 @@
     display: none;
   }
   .aboutUs2 .h2-history {
-    padding-top: 50px;
     padding-bottom: 30px;
     padding-left: 15px;
   }
@@ -1660,7 +1686,6 @@
     display: none;
   }
   .aboutUs .h2-history {
-    padding-top: 50px;
     padding-bottom: 30px;
   }
   .aboutUs .office {
@@ -1700,7 +1725,6 @@
     display: none;
   }
   .aboutUs2 .h2-history {
-    padding-top: 50px;
     padding-bottom: 30px;
     padding-left: 15px;
   }
@@ -1832,7 +1856,6 @@
     display: none;
   }
   .aboutUs .h2-history {
-    padding-top: 50px;
     padding-bottom: 30px;
   }
   .aboutUs .office {
@@ -1873,7 +1896,6 @@
     display: none;
   }
   .aboutUs2 .h2-history {
-    padding-top: 50px;
     padding-bottom: 30px;
     padding-left: 15px;
   }
@@ -1960,81 +1982,6 @@
   }
 }
 
-@media (min-width: 321px) and (max-width: 375px) {
-  .meetTheTeam {
-    position: relative;
-    padding-bottom: 110px;
-  }
-  .meetTheTeam .path {
-    width: 100%;
-    position: absolute;
-    top: 470px;
-  }
-  .modal .modal-body .row .col-lg-6 .image {
-    width: 330px;
-    height: auto;
-    padding: 20px;
-    margin: 0 auto;
-  }
-  .modal .modal-body .row .col-lg-6 h2 {
-    padding-top: 50px;
-  }
-  .aboutUs {
-    margin: 0;
-    margin-top: 10px;
-    position: relative;
-  }
-  .aboutUs .container {
-    margin: 0 auto;
-  }
-  .aboutUs .container .row .col-lg-6 h2 {
-    padding-top: 28px;
-  }
-  .aboutUs .container .row .col-lg-6 .ceo-t {
-    display: block;
-    margin: 0 auto;
-    width: 200px;
-  }
-  .aboutUs .container .row p {
-    padding-top: 20px;
-  }
-  .aboutUs .container .row .ceo {
-    margin-top: 100px;
-    padding-left: 50px;
-    width: 400px;
-    height: auto;
-    display: none;
-  }
-  .aboutUs .h2-history {
-    padding-top: 50px;
-    padding-bottom: 30px;
-  }
-  .aboutUs .office {
-    display: none;
-  }
-  .aboutUs .opis {
-    display: none;
-  }
-  .aboutUs .opis2 {
-    width: 300px;
-    margin: 0 auto;
-    display: block;
-  }
-}
-
-@media only screen and (max-width: 769px) {
-  .top-section .container-fluid {
-    padding: 10px;
-    text-align: center;
-  }
-  .top-section .container-fluid .row .col-sm-12 h2 {
-    font-size: 1.5rem;
-  }
-  .consultation-section {
-    padding: 0;
-  }
-}
-
 @media only screen and (max-width: 769px) {
   .top-section .container-fluid {
     padding: 10px;
@@ -2042,6 +1989,9 @@
   }
   .top-section .container-fluid .row .col-sm-12 h1 {
     margin-top: 10px;
+  }
+  .top-section .container-fluid .row .col-sm-12 h2 {
+    font-size: 1.5rem;
   }
   .consultation-section {
     padding: 0;

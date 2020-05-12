@@ -100,15 +100,15 @@ body {
 
 .section-head-fc {
   text-align: center;
-  padding: 80px;
 }
 
 .section-head-fc .sh_p {
   font-size: 2rem;
   padding: 0;
   margin: 0;
-  background-image: -webkit-gradient(linear, left top, right top, from(#002cff), color-stop(#00bcdb), to(#002cff));
-  background-image: linear-gradient(to right, #002cff, #00bcdb, #002cff);
+  font-weight: 700;
+  background-image: -webkit-gradient(linear, left top, right top, from(#ff3000), color-stop(50%, #ffb000), to(#cfff00));
+  background-image: linear-gradient(90deg, #ff3000 0%, #ffb000 50%, #cfff00 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: #0000;
 }
@@ -132,6 +132,7 @@ body {
   font-size: 2rem;
   padding: 0;
   margin: 0;
+  font-weight: 700;
   background-image: -webkit-gradient(linear, left top, right top, from(#002cff), color-stop(#00bcdb), to(#002cff));
   background-image: linear-gradient(to right, #002cff, #00bcdb, #002cff);
   -webkit-background-clip: text;
@@ -157,6 +158,7 @@ body {
   font-size: 2rem;
   padding: 0;
   margin: 0;
+  font-weight: 700;
   background-image: -webkit-gradient(linear, left top, right top, from(#002cff), color-stop(#00bcdb), to(#002cff));
   background-image: linear-gradient(to right, #002cff, #00bcdb, #002cff);
   -webkit-background-clip: text;
@@ -452,7 +454,7 @@ body {
 .services .container .row .exp-illu .exp-illu-item .caption {
   text-align: center;
   font-size: 16px;
-  color: #00BCDB;
+  color: rgba(0, 0, 0, 0.5);
   padding-top: 10px;
 }
 
@@ -461,7 +463,7 @@ body {
 }
 
 .services .container .s_title {
-  color: #00BCDB;
+  color: rgba(0, 0, 0, 0.5);
   font-weight: 800;
 }
 
@@ -635,9 +637,20 @@ body {
   margin-top: 20%;
 }
 
+.aboutUs .ab_h3 {
+  padding-top: 50px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#00AAE0), color-stop(2%, #00bcdb), to(#00A9E0));
+  background-image: linear-gradient(to right, #00AAE0, #00bcdb 2%, #00A9E0);
+  background-size: 20%;
+  font-weight: 700;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #0000;
+}
+
 .aboutUs .h2-history {
-  padding: 50px 0;
-  color: #00BCDB;
+  padding-bottom: 50px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1rem;
 }
 
 .aboutUs .office {
@@ -1238,10 +1251,20 @@ body {
   margin-top: 20%;
 }
 
+.aboutUs2 .ab_h3 {
+  padding-top: 50px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#00AAE0), color-stop(2%, #00bcdb), to(#00A9E0));
+  background-image: linear-gradient(to right, #00AAE0, #00bcdb 2%, #00A9E0);
+  background-size: 20%;
+  font-weight: 700;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #0000;
+}
+
 .aboutUs2 .h2-history {
-  padding-top: 80px;
   padding-bottom: 50px;
-  color: #00BCDB;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1rem;
 }
 
 .aboutUs2 .office {
@@ -1305,7 +1328,7 @@ body {
 
 .services-new .newService .s_1 h5 {
   padding: 20px 0;
-  color: #00BCDB;
+  color: rgba(0, 0, 0, 0.5);
   font-weight: 700;
 }
 
@@ -1338,7 +1361,7 @@ body {
 
 .services-new .newService .s_2 h5 {
   padding: 20px 0;
-  color: #00BCDB;
+  color: rgba(0, 0, 0, 0.5);
   font-weight: 700;
 }
 
@@ -1377,7 +1400,7 @@ body {
 
 .newServicesContents .container .row .col-lg-3 p {
   font-size: .9rem;
-  color: #00BCDB;
+  color: rgba(0, 0, 0, 0.5);
   text-align: center;
   text-justify: inter-word;
   line-height: 1.5rem;

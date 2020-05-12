@@ -114,13 +114,13 @@ body{
 //free consultation
 .section-head-fc{
     text-align: center;
-    padding: 80px;
     // margin-bottom: 100px;
     .sh_p{
         font-size:2rem; 
         padding:0; 
         margin:0; 
-        background-image: linear-gradient(to right,#002cff, #00bcdb, #002cff);
+        font-weight:700;
+        background-image: linear-gradient(90deg, rgba(255,48,0,1) 0%, rgba(255,176,0,1) 50%, rgba(207,255,0,1) 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: #0000;
     }
@@ -141,6 +141,7 @@ body{
         font-size:2rem; 
         padding:0; 
         margin:0; 
+        font-weight:700;
         background-image: linear-gradient(to right,#002cff, #00bcdb, #002cff);
         -webkit-background-clip: text;
         -webkit-text-fill-color: #0000;
@@ -162,6 +163,7 @@ body{
         font-size:2rem; 
         padding:0; 
         margin:0; 
+        font-weight:700;
         background-image: linear-gradient(to right,#002cff, #00bcdb, #002cff);
         -webkit-background-clip: text;
         -webkit-text-fill-color: #0000;
@@ -493,7 +495,7 @@ body{
                     .caption{
                         text-align: center;
                         font-size: 16px;
-                        color: #00BCDB;
+                        color: $unifyblack;
                         padding-top: 10px;
                     }
                 }
@@ -506,7 +508,7 @@ body{
 
         }
         .s_title{
-            color:#00BCDB;
+            color:$unifyblack;
             font-weight:800;
 
         }
@@ -632,15 +634,7 @@ body{
    
     position: relative;
     padding-bottom: 50px;
-    // .section-head-1{
-    //     padding-top: 100px;
-    //     h1{
-    //         color: #2390AE;
-    //     }
-    //     p{
-    //         color: rgba(0, 0, 0, .5);
-    //     }
-    // }
+
     .container{
         margin: 0 auto;
         .row{
@@ -684,11 +678,18 @@ body{
                 margin-top: 20%;
             }
         }
+        .ab_h3{
+            padding-top:50px;
+            background-image: linear-gradient(to right,#00AAE0 , #00bcdb 2%, #00A9E0 );
+            background-size: 20%;
+            font-weight:700;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: #0000;
+        }
         .h2-history{
-            //02-19-2020 change the padding-top to 100 px. ny chaimel
-            padding: 50px 0 ;
-
-            color:#00BCDB;
+            padding-bottom:50px;
+            color:$unifyblack;
+            font-size:1rem;
         }
         .office{
             top: 1100px;
@@ -1292,11 +1293,18 @@ body{
             
         }
         
+        .ab_h3{
+            padding-top:50px;
+            background-image: linear-gradient(to right,#00AAE0 , #00bcdb 2%, #00A9E0 );
+            background-size: 20%;
+            font-weight:700;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: #0000;
+        }
         .h2-history{
-            //02-19-2020 change the padding-top to 100 px. ny chaimel
-            padding-top: 80px;
-            padding-bottom: 50px;
-            color:#00BCDB;
+            padding-bottom:50px;
+            color:$unifyblack;
+            font-size:1rem;
         }
         .office{
             top: 1930px;
@@ -1358,7 +1366,7 @@ body{
             }
             h5{
                 padding:20px 0;
-                color:#00BCDB;
+                color:$unifyblack;
                 font-weight:700;
             }
             p{
@@ -1386,7 +1394,7 @@ body{
             }
             h5{
                 padding:20px 0;
-                color:#00BCDB;
+                color:$unifyblack;
                 font-weight:700;
             }
             p{
@@ -1424,7 +1432,7 @@ body{
                 text-align: center;
                 p{
                     font-size: .9rem;
-                    color: #00BCDB;
+                    color: $unifyblack;
                     text-align: center;
                     text-justify: inter-word;
                     line-height: 1.5rem;
