@@ -107,8 +107,8 @@ body {
   font-size: 2rem;
   padding: 0;
   margin: 0;
-  background-image: -webkit-gradient(linear, left top, right top, from(#00BCDB), color-stop(#00D323), to(#FFB000));
-  background-image: linear-gradient(to right, #00BCDB, #00D323, #FFB000);
+  background-image: -webkit-gradient(linear, left top, right top, from(#002cff), color-stop(#00bcdb), to(#002cff));
+  background-image: linear-gradient(to right, #002cff, #00bcdb, #002cff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: #0000;
 }
@@ -132,8 +132,8 @@ body {
   font-size: 2rem;
   padding: 0;
   margin: 0;
-  background-image: -webkit-gradient(linear, left top, right top, from(#00BCDB), color-stop(#00D323), to(#FFB000));
-  background-image: linear-gradient(to right, #00BCDB, #00D323, #FFB000);
+  background-image: -webkit-gradient(linear, left top, right top, from(#002cff), color-stop(#00bcdb), to(#002cff));
+  background-image: linear-gradient(to right, #002cff, #00bcdb, #002cff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: #0000;
 }
@@ -157,8 +157,8 @@ body {
   font-size: 2rem;
   padding: 0;
   margin: 0;
-  background-image: -webkit-gradient(linear, left top, right top, from(#00BCDB), color-stop(#00D323), to(#FFB000));
-  background-image: linear-gradient(to right, #00BCDB, #00D323, #FFB000);
+  background-image: -webkit-gradient(linear, left top, right top, from(#002cff), color-stop(#00bcdb), to(#002cff));
+  background-image: linear-gradient(to right, #002cff, #00bcdb, #002cff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: #0000;
 }
