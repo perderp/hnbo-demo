@@ -143,6 +143,3 @@ $(document).ready(function(){
             .fail(fail_func);
     });
 })(jQuery);
-
-
-

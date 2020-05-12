@@ -508,7 +508,9 @@ body{
 
         }
         .s_title{
-            color:$unifyblack;
+            background-image: linear-gradient(to right,#002cff, #00bcdb, #002cff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: #0000;
             font-weight:800;
 
         }
