@@ -91,6 +91,7 @@ body {
 .section-head-r h1 {
   font-size: 2rem;
   color: #00BCDB;
+  font-weight: 700;
 }
 
 .section-head-r p {
@@ -133,8 +134,8 @@ body {
   padding: 0;
   margin: 0;
   font-weight: 700;
-  background-image: -webkit-gradient(linear, left top, right top, from(#002cff), color-stop(#00bcdb), to(#002cff));
-  background-image: linear-gradient(to right, #002cff, #00bcdb, #002cff);
+  background-image: -webkit-gradient(linear, left top, right top, from(#1fa2c8), color-stop(50%, #16bfd9), to(#1b84a2));
+  background-image: linear-gradient(90deg, #1fa2c8 0%, #16bfd9 50%, #1b84a2 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: #0000;
 }
@@ -1291,6 +1292,7 @@ body {
 
 .aboutUs2 .corp {
   padding-top: 10px;
+  font-weight: 700;
   text-align: center;
   color: #00BCDB;
 }
