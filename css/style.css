@@ -92,6 +92,13 @@ body {
   padding: 20px;
 }
 
+.section-head-r hr {
+  background: -webkit-gradient(linear, left top, right top, from(#1D83D8), color-stop(#00E7E7), color-stop(#4FDA3F), color-stop(#00E7E7), to(#1D83D8));
+  background: linear-gradient(to right, #1D83D8, #00E7E7, #4FDA3F, #00E7E7, #1D83D8);
+  height: 5px;
+  width: 150px;
+}
+
 .section-head-r h1 {
   font-size: 2rem;
   color: #00BCDB;
@@ -489,8 +496,8 @@ body {
 }
 
 .services .container .s_title {
-  background-image: -webkit-gradient(linear, left top, right top, from(#002cff), color-stop(#00bcdb), to(#002cff));
-  background-image: linear-gradient(to right, #002cff, #00bcdb, #002cff);
+  background-image: -webkit-gradient(linear, left top, right top, from(#1D83D8), color-stop(#00E7E7), color-stop(#4FDA3F), color-stop(#00E7E7), to(#1D83D8));
+  background-image: linear-gradient(to right, #1D83D8, #00E7E7, #4FDA3F, #00E7E7, #1D83D8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: #0000;
   font-weight: 800;
@@ -668,8 +675,8 @@ body {
 
 .aboutUs .ab_h3 {
   padding-top: 50px;
-  background-image: -webkit-gradient(linear, left top, right top, from(#00AAE0), color-stop(2%, #00bcdb), to(#00A9E0));
-  background-image: linear-gradient(to right, #00AAE0, #00bcdb 2%, #00A9E0);
+  background-image: -webkit-gradient(linear, left top, right top, from(#1D83D8), color-stop(#00E7E7), color-stop(#4FDA3F), color-stop(#00E7E7), to(#1D83D8));
+  background-image: linear-gradient(to right, #1D83D8, #00E7E7, #4FDA3F, #00E7E7, #1D83D8);
   background-size: 20%;
   font-weight: 700;
   -webkit-background-clip: text;
@@ -1282,8 +1289,8 @@ body {
 
 .aboutUs2 .ab_h3 {
   padding-top: 50px;
-  background-image: -webkit-gradient(linear, left top, right top, from(#00AAE0), color-stop(2%, #00bcdb), to(#00A9E0));
-  background-image: linear-gradient(to right, #00AAE0, #00bcdb 2%, #00A9E0);
+  background-image: -webkit-gradient(linear, left top, right top, from(#1D83D8), color-stop(#00E7E7), color-stop(#4FDA3F), color-stop(#00E7E7), to(#1D83D8));
+  background-image: linear-gradient(to right, #1D83D8, #00E7E7, #4FDA3F, #00E7E7, #1D83D8);
   background-size: 20%;
   font-weight: 700;
   -webkit-background-clip: text;

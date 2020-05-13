@@ -233,8 +233,6 @@
     text-align: left;
   }
   .aboutUs .container .ab_h3 {
-    background-image: -webkit-gradient(linear, left top, right top, from(#002cff), color-stop(#00bcdb), to(#002cff));
-    background-image: linear-gradient(to right, #002cff, #00bcdb, #002cff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: #0000;
     background-size: 100%;
@@ -325,8 +323,6 @@
     text-align: left;
   }
   .aboutUs2 .ab_h3 {
-    background-image: -webkit-gradient(linear, left top, right top, from(#002cff), color-stop(#00bcdb), to(#002cff));
-    background-image: linear-gradient(to right, #002cff, #00bcdb, #002cff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: #0000;
     background-size: 100%;
@@ -780,8 +776,6 @@
   }
   .aboutUs .container .ab_h3 {
     padding-left: 15px;
-    background-image: -webkit-gradient(linear, left top, right top, from(#002cff), color-stop(#00bcdb), to(#002cff));
-    background-image: linear-gradient(to right, #002cff, #00bcdb, #002cff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: #0000;
     background-size: 100%;
@@ -864,8 +858,6 @@
   }
   .aboutUs2 .ab_h3 {
     padding-left: 15px;
-    background-image: -webkit-gradient(linear, left top, right top, from(#002cff), color-stop(#00bcdb), to(#002cff));
-    background-image: linear-gradient(to right, #002cff, #00bcdb, #002cff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: #0000;
     background-size: 100%;
