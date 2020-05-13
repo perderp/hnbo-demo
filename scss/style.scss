@@ -1,9 +1,13 @@
 $bg: #00AFE1;
 $unifyblack : rgba(0, 0, 0, .5);
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 body{
     background-color:#f7f7f7;
     color:$unifyblack;
-    font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+    
 }
 
 //nav Orange button
@@ -122,7 +126,7 @@ body{
         padding:0; 
         margin:0; 
         font-weight:700;
-        background-image: linear-gradient(to right,#FFB000,#72B9FF, #00FFB3, #72B9FF, #FFB000);
+        background-image: linear-gradient(to right, rgba(241,39,17,1) 0%, rgba(245,175,25,1) 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: #0000;
     }
@@ -144,7 +148,7 @@ body{
         padding:0; 
         margin:0; 
         font-weight:700;
-        background-image: linear-gradient(to right,#72B9FF,#00D323,#FFB000, #00D323,#72B9FF);
+        background-image: linear-gradient(to right,#1D83D8,#00E7E7, #4FDA3F, #00E7E7, #1D83D8);
         // background-image: linear-gradient(to right,#002cff, #00bcdb, #002cff);
         -webkit-background-clip: text;
         -webkit-text-fill-color: #0000;
@@ -167,7 +171,7 @@ body{
         padding: 0;
         margin: 0;
         font-weight: 700;
-        background-image: linear-gradient(to right,#00D323,#00BCDB, #00D323,#00BCDB,#00D323);
+        background-image: linear-gradient(to right,#1D83D8,#00E7E7, #4FDA3F, #00E7E7, #1D83D8);
         -webkit-background-clip: text;
         -webkit-text-fill-color: #0000;
     }
@@ -793,7 +797,6 @@ body{
                     //     display: initial;
                     //     transform: translateY(-100px);
                         
-                    //     font-family: Raleway, serif;
                     //     transition: all 0.2s ease-in-out;
                         
                     //    }

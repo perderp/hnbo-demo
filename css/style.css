@@ -1,7 +1,10 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 body {
   background-color: #f7f7f7;
   color: rgba(0, 0, 0, 0.5);
-  font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
 }
 
 .nav-orange {
@@ -109,8 +112,8 @@ body {
   padding: 0;
   margin: 0;
   font-weight: 700;
-  background-image: -webkit-gradient(linear, left top, right top, from(#FFB000), color-stop(#72B9FF), color-stop(#00FFB3), color-stop(#72B9FF), to(#FFB000));
-  background-image: linear-gradient(to right, #FFB000, #72B9FF, #00FFB3, #72B9FF, #FFB000);
+  background-image: -webkit-gradient(linear, left top, right top, from(#f12711), to(#f5af19));
+  background-image: linear-gradient(to right, #f12711 0%, #f5af19 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: #0000;
 }
@@ -135,8 +138,8 @@ body {
   padding: 0;
   margin: 0;
   font-weight: 700;
-  background-image: -webkit-gradient(linear, left top, right top, from(#72B9FF), color-stop(#00D323), color-stop(#FFB000), color-stop(#00D323), to(#72B9FF));
-  background-image: linear-gradient(to right, #72B9FF, #00D323, #FFB000, #00D323, #72B9FF);
+  background-image: -webkit-gradient(linear, left top, right top, from(#1D83D8), color-stop(#00E7E7), color-stop(#4FDA3F), color-stop(#00E7E7), to(#1D83D8));
+  background-image: linear-gradient(to right, #1D83D8, #00E7E7, #4FDA3F, #00E7E7, #1D83D8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: #0000;
 }
@@ -161,8 +164,8 @@ body {
   padding: 0;
   margin: 0;
   font-weight: 700;
-  background-image: -webkit-gradient(linear, left top, right top, from(#00D323), color-stop(#00BCDB), color-stop(#00D323), color-stop(#00BCDB), to(#00D323));
-  background-image: linear-gradient(to right, #00D323, #00BCDB, #00D323, #00BCDB, #00D323);
+  background-image: -webkit-gradient(linear, left top, right top, from(#1D83D8), color-stop(#00E7E7), color-stop(#4FDA3F), color-stop(#00E7E7), to(#1D83D8));
+  background-image: linear-gradient(to right, #1D83D8, #00E7E7, #4FDA3F, #00E7E7, #1D83D8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: #0000;
 }
