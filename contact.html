@@ -283,52 +283,5 @@
     })(document);
 </script>
 
-<script>
-    let submitBtn = document.querySelector('#submit');
-    let email_input = document.querySelector('#email_input');
-    let message_input = document.querySelector('#message_input');
-    let closeModal = document.querySelector('#closeModal');
-    let openModal = document.querySelector('#openModal');
-    let emailConfirm = document.querySelector('#emailConfirm');
-    let messageConfirm = document.querySelector('#messageConfirm');
-
-    closeModal.addEventListener('click', (e) => {
-        e.preventDefault();
-        document.getElementById('id01').style.display = 'none';
-    })
-
-
-    openModal.addEventListener('click', (e) => {
-        e.preventDefault();
-        if (email_input.value && message_input.value) {
-            document.getElementById('id01').style.display = 'block';
-            emailConfirm.innerText = `Email : ${email_input.value}`;
-            messageConfirm.innerText = `Message : ${message_input.value}`;
-        } else {
-            // ako gi general ang trap char
-            Swal.fire(
-            'Missing Fields',
-            'There are missing fields',
-            'error'
-        )
-        }
-
-
-    })
-
-
-
-    submitBtn.addEventListener('click', (e) => {
-        e.preventDefault();
-        Swal.fire(
-            'Sent !',
-            'Message is successfully sent!',
-            'success'
-        )
-        document.getElementById('id01').style.display = 'none';
-        console.log(`Email : ${email_input.value} \n Message : ${message_input.value}`);
-
-    })
-</script>
 </body>
 </html>
