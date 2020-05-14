@@ -93,16 +93,16 @@ body {
 }
 
 .section-head-r hr {
-  background: -webkit-gradient(linear, left top, right top, from(#00008b), color-stop(#00bfff), to(#0000ff));
-  background: linear-gradient(to right, #00008b, #00bfff, #0000ff);
+  background: -webkit-gradient(linear, left top, right top, from(#00c6ff), to(#0070c8));
+  background: linear-gradient(to right, #00c6ff, #0070c8);
   height: 5px;
   width: 150px;
 }
 
 .section-head-r h1 {
   font-size: 2rem;
-  background-image: -webkit-gradient(linear, left top, right top, from(#00008b), color-stop(#00bfff), to(#0000ff));
-  background-image: linear-gradient(to right, #00008b, #00bfff, #0000ff);
+  background-image: -webkit-gradient(linear, left top, right top, from(#00c6ff), to(#0070c8));
+  background-image: linear-gradient(to right, #00c6ff, #0070c8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: #0000;
   font-weight: 700;
@@ -155,15 +155,15 @@ body {
   padding: 0;
   margin: 0;
   font-weight: 700;
-  background-image: -webkit-gradient(linear, left top, right top, from(#00008b), color-stop(#00bfff), to(#0000ff));
-  background-image: linear-gradient(to right, #00008b, #00bfff, #0000ff);
+  background-image: -webkit-gradient(linear, left top, right top, from(#00c6ff), to(#0070c8));
+  background-image: linear-gradient(to right, #00c6ff, #0070c8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: #0000;
 }
 
 .section-head hr {
-  background: -webkit-gradient(linear, left top, right top, from(#00008b), color-stop(#00bfff), to(#0000ff));
-  background: linear-gradient(to right, #00008b, #00bfff, #0000ff);
+  background: -webkit-gradient(linear, left top, right top, from(#00c6ff), to(#0070c8));
+  background: linear-gradient(to right, #00c6ff, #0070c8);
   height: 5px;
   width: 150px;
 }
@@ -188,15 +188,15 @@ body {
   padding: 0;
   margin: 0;
   font-weight: 700;
-  background-image: -webkit-gradient(linear, left top, right top, from(#00008b), color-stop(#00bfff), to(#0000ff));
-  background-image: linear-gradient(to right, #00008b, #00bfff, #0000ff);
+  background-image: -webkit-gradient(linear, left top, right top, from(#00c6ff), to(#0070c8));
+  background-image: linear-gradient(to right, #00c6ff, #0070c8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: #0000;
 }
 
 .section-head-1 hr {
-  background: -webkit-gradient(linear, left top, right top, from(#00008b), color-stop(#00bfff), to(#0000ff));
-  background: linear-gradient(to right, #00008b, #00bfff, #0000ff);
+  background: -webkit-gradient(linear, left top, right top, from(#00c6ff), to(#0070c8));
+  background: linear-gradient(to right, #00c6ff, #0070c8);
   height: 5px;
   width: 150px;
 }
@@ -499,8 +499,8 @@ body {
 }
 
 .services .container .s_title {
-  background-image: -webkit-gradient(linear, left top, right top, from(#00008b), color-stop(#00bfff), to(#0000ff));
-  background-image: linear-gradient(to right, #00008b, #00bfff, #0000ff);
+  background-image: -webkit-gradient(linear, left top, right top, from(#00c6ff), to(#0070c8));
+  background-image: linear-gradient(to right, #00c6ff, #0070c8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: #0000;
   font-weight: 800;
@@ -678,8 +678,8 @@ body {
 
 .aboutUs .ab_h3 {
   padding-top: 50px;
-  background-image: -webkit-gradient(linear, left top, right top, from(#00008b), color-stop(#00bfff), to(#0000ff));
-  background-image: linear-gradient(to right, #00008b, #00bfff, #0000ff);
+  background-image: -webkit-gradient(linear, left top, right top, from(#00c6ff), to(#0070c8));
+  background-image: linear-gradient(to right, #00c6ff, #0070c8);
   background-size: 20%;
   font-weight: 700;
   -webkit-background-clip: text;
@@ -1292,8 +1292,8 @@ body {
 
 .aboutUs2 .ab_h3 {
   padding-top: 50px;
-  background-image: -webkit-gradient(linear, left top, right top, from(#00008b), color-stop(#00bfff), to(#0000ff));
-  background-image: linear-gradient(to right, #00008b, #00bfff, #0000ff);
+  background-image: -webkit-gradient(linear, left top, right top, from(#00c6ff), to(#0070c8));
+  background-image: linear-gradient(to right, #00c6ff, #0070c8);
   background-size: 20%;
   font-weight: 700;
   -webkit-background-clip: text;
@@ -1329,8 +1329,8 @@ body {
   padding-top: 10px;
   font-weight: 700;
   text-align: center;
-  background-image: -webkit-gradient(linear, left top, right top, from(#00008b), color-stop(#00bfff), to(#0000ff));
-  background-image: linear-gradient(to right, #00008b, #00bfff, #0000ff);
+  background-image: -webkit-gradient(linear, left top, right top, from(#00c6ff), to(#0070c8));
+  background-image: linear-gradient(to right, #00c6ff, #0070c8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: #0000;
 }

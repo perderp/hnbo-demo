@@ -31,7 +31,6 @@
                 position: relative;
                 
                 .nav-link{
-                    font-family: 'Montserrat', sans-serif;
                     text-align: center;
                     font-size: 14px;   
 
@@ -56,7 +55,6 @@
 
                         &:first-child{
                             color: $lightcolor1;
-                            font-family: 'Yu Gothic';
                         }
 
                         &:last-child{
@@ -86,7 +84,6 @@
 
                         &:first-child{
                             color:#FFB000;
-                            font-family: 'Yu Gothic';
                         }
 
                         &:last-child{
@@ -1857,7 +1854,6 @@
                                 display: initial;
                                 transform: translateY(-100px);
                                 
-                                font-family: Raleway, serif;
                                 transition: all 0.2s ease-in-out;
                                 
                                }
